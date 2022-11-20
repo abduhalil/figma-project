@@ -1,0 +1,504 @@
+@media (max-width:375px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        margin: 0 auto;
+    }
+    header{
+        position: relative;
+        display:flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .navbar{
+        margin-top: 45px;
+        display: flex;
+        padding: 0;
+    }
+    .nav_link{
+        display: block;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .nav li:nth-child(1){
+        display: block;
+        margin-bottom: 100px;
+    }
+    #myTopnav{
+        overflow: hidden;
+        border: none; 
+        transition: 0.5s;
+      }
+    #myTopnav {
+        width: 90%;
+        height: 105vh;
+        align-items: center;
+       flex-direction: column;
+        font-size: 35px;
+        line-height: 22px;
+        background-color: #fff;
+        position: absolute;
+        top:0; 
+        right: 40px;
+        z-index: 5;
+      }
+      .nav{
+        margin:-45px;
+      }
+    #myTopnav li:nth-last-child(1){
+        margin-top: 100px;
+    }
+    .nav_btn{
+        width: 303px;
+        height: 43px;
+    }
+    .logo{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 200px;
+    }
+    .logotxt{
+        margin-left: 16px;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 20px;
+        position: relative
+    }
+    .burger_menu{
+        position: relative;
+        display: block;
+    }
+    .container{
+        margin: 0 16px;
+        display: flex;
+        flex-direction: column;
+    }
+    .text_1{
+        font-weight: 700;
+        font-size: 29px;
+        line-height: 34px;
+    }
+    .text_2{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+    }
+    /* ========================================= */
+    .container_btn{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .cont_btn_1{
+        width: 162px;
+        height: 43px;
+    }
+    .cont_btn_2{
+        width: 162px;
+        height: 43px;
+    } 
+    .customers{
+        display: flex;
+        justify-content: start;
+        margin-left: 35px;
+        margin-top: 72px;
+    }
+    .customers_text{
+        display: none;
+    }
+    .cst_txt{
+        margin-top: 14px;
+        display: block;
+    }
+    .cst_txt b{
+        color: #E67E22;
+    }
+    .container_img{
+        width: 0;
+        padding-top: 95px;
+        padding-bottom: 90px;
+        display: flex;
+        justify-content: center;
+
+    }
+    .rectangle_10{
+        width: 187px;
+        height: 208px;
+    }
+    .rectangle_11{
+        margin-left: 155px;
+        margin-top: -100px;
+        width: 195px;
+        height: 156px;
+    }
+    .rectangle_12{
+        margin-top: -20px;
+        width: 244px;
+        height: 162px;
+    }
+     /* ========================================= */
+    .Featured{
+        display: block;
+    }
+    .featured_img{
+        display: none;
+    }
+    .featured_img2{
+        margin-top: 38px;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        gap: 8px;
+    }
+     /* ========================================= */
+    .section_1{
+        width:100%;
+        height: 100%;
+        display: inline-block;
+    }
+    .How_it_works{
+        margin: 0 16px 70px 16px;
+        display: block;
+        justify-content: start;
+    }
+    .how_text_2{
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 33px;
+    }
+    .iphone_13{
+        gap: 54px;
+        margin: 0 16px 70px 16px;
+        flex-direction: column;
+    }
+    .Inumber{
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 57px;
+        /* identical to box height */
+        
+        color: #DDDDDD;
+    }
+    .iphone_img{
+        margin: 0 20%;
+        width: 212px;
+        height: 212px;
+    }
+    .Icircle{
+        width: 157px;
+        height: 157px;
+    }
+    .Icircle img{
+        width: 117px;
+        height: 242px;
+    }
+    .Itext_1{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .Itext_2{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+        /* or 21px */
+        
+        color: #555555;
+    }
+    #img1{
+        order: 1;
+    }
+    #txt1{
+        order: 2;
+    }
+    #img2{
+        order: 3;
+    }
+    #txt2{
+        order: 4;
+    }
+    #img3{
+        order: 5;
+    }
+    #txt3{
+        order: 6;
+    }
+     /* ========================================= */
+    .section_2{
+        display: block;
+    }
+    .meal_cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin: 96px 50px 0 50px;
+        padding: 0;
+    }
+    .diet{
+        margin-top: 60px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 41px;
+    }
+     /* ========================================= */
+    .section_3{
+        display: block;
+    }
+    .section_3_box{
+        display: block;
+        flex-direction: column;
+        margin: 0 14px;
+    }
+    .testi_text_2{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        
+    }
+   .testi_img img{
+    width: 64px;
+    height: 64px;
+   }
+   .testi_reviews{
+    display: none;
+   }
+   .testi_review{
+    margin-top: 48px;
+   }
+   .testi_review p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+   }
+   #testi_{
+    margin-top: 88px;
+    display: block;
+    list-style: none;
+   }
+   .testi_review span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+   }
+    .testi_imgs{
+        margin: 70px 0 0 0;
+        padding-bottom: 48px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .testi_img{
+        display: flex;
+        width: 60px;
+        height: 60px;
+    }
+    .testi_img img{
+        display: flex;
+        width: 80px;
+        height: 80px;
+    }
+     /* ========================================= */
+    .section_4{
+        width: 90%;
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 80px 0 0 0;
+        padding: 0;
+    }
+    .pricing{
+        width:90%;
+        display: block;
+        margin: 0 0 0 16px;
+        padding: 0;
+    }
+    .pricing_text_2{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .pricing_cards{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 16px;
+      
+        gap: 20px;
+    }
+    .pricing_card_1{
+        width: 343px;
+        height: 543px;
+    
+    }
+    .pricing_card_txt{
+        margin-top: 0;
+        padding-top: 48px;
+    }
+    .best_value{
+        position: absolute;
+        width: 10px;
+        height: 34px;
+        margin-left: 215px;
+    }
+    .value_txt{
+        font-weight: 600;
+    }
+    .pricing_card_2{
+        width: 343px;
+        height: 543px;
+    }
+    .acces_btn{
+        width: 311px;
+        height: 44px;
+        margin-left: -40px;
+    }
+     /* ========================================= */
+    .section_5{
+        margin-top: 168px;
+        width: 100%;
+    }
+    .order_text_1{
+        margin: 16px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .order_text_2{
+        margin:20px 16px 0 16px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 174%;
+    }
+    .order_box{
+        width: 343px;
+        height: 942px;
+        display: block;
+        flex-direction: column;
+        margin: 0;
+        position: relative;
+    }
+    .order_txt{
+       margin-top: 40px;
+        order: 2;
+        display: block;
+      flex-direction: column;
+    }
+    .order_regstr{
+        width: 297px;
+        margin:40px 16px 16px 16px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+    .order_image{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        order: 1;
+    }
+    .order_inputs{
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .order_input{
+        margin-top: 18px;
+    }
+    .order_image img:nth-last-child(2){
+        display: block;
+    }
+    .order_image img:nth-last-child(1){
+        display: none;
+    }
+     /* ========================================= */
+    footer{
+        margin-top: 88px;
+        margin-bottom: 120px;
+       display: block;
+        align-items: center;
+        justify-content: center;
+        height: 388px;
+    }
+    .footer_navbar{
+        gap: 30px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        list-style: none;
+    }
+    .footer_nav{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer_nav_link{
+        margin: 0;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 200%;
+    }
+    .footer_nav_links{
+        list-style: none;
+    }
+    #logotype{
+        margin-bottom: 20px;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 20px;
+        
+        color: #000000;
+        display: block;
+    }
+    .contact_us_txt_1{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 130%;
+    }
+    .contact_us_txt_2{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 130%;
+    }
+    
+    .omnifood{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        
+        color: #555555;
+    }
+    #img_omni{
+        display: none;
+    }
+    #omnifud{
+        order: 4;
+    }
+    #contact{
+        order: 5;
+    }
+    #account{
+        orphans: 1;
+    }
+    #company{
+        order: 2;
+    }
+    #resources{
+        order: 3;
+    }
+}
